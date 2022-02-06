@@ -1,0 +1,9 @@
+.section {
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.head {
+  font-size: 24px;
+}

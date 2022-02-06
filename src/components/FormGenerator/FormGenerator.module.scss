@@ -1,0 +1,35 @@
+.form {
+  height: 100%;
+}
+
+.form,
+.label {
+  display: flex;
+  flex-direction: column;
+}
+
+.label,
+.textarea {
+  flex-grow: 1;
+}
+
+.textarea {
+  resize: none;
+  padding: 8px;
+  border-radius: 4px;
+  margin-top: 12px;
+}
+
+.error {
+  font-size: 14px;
+  font-weight: bold;
+  color: darkred;
+}
+
+.button {
+  align-self: flex-end;
+  min-width: 160px;
+  padding: 8px 12px;
+  margin-top: 16px;
+  font-size: 20px;
+}

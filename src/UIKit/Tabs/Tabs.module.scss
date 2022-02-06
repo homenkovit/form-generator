@@ -1,0 +1,18 @@
+.component {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.tab {
+  border-bottom: none;
+}
+
+.panel {
+  overflow: hidden;
+  flex-grow: 1;
+  padding: 16px;
+  border: 1px solid black;
+  border-radius: 8px;
+  border-top-left-radius: 0;
+}

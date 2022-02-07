@@ -10,9 +10,11 @@ export const ExampleSection: FC = () => {
   };
 
   return (
-    <section>
+    <section className={styles.section}>
       <h3 className={styles.head}>Example</h3>
-      <p><strong>You can copy example JSON and try it in generator</strong></p>
+      <p className={styles.info}>
+        <strong>You can copy example JSON and try it in generator</strong>
+      </p>
       <div className={styles.wrapper}>
         <button
           type="button"

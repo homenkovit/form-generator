@@ -14,15 +14,17 @@
 }
 
 .wrapper {
+  overflow: hidden;
   flex-grow: 1;
-  overflow: auto;
   position: relative;
-  padding: 8px;
   border: 1px solid black;
   border-radius: 8px;
 }
 
 .pre {
+  overflow: auto;
+  height: 100%;
+  padding: 8px;
   margin: 0;
 }
 
